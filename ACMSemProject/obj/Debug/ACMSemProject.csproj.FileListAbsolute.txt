@@ -1,0 +1,73 @@
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\ACMSemProject.exe
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\ACMSemProject.pdb
+K:\VS projects\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.csprojResolveAssemblyReference.cache
+K:\VS projects\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.Form1.resources
+K:\VS projects\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.Properties.Resources.resources
+K:\VS projects\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.csproj.GenerateResource.Cache
+K:\VS projects\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.exe
+K:\VS projects\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.pdb
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2017.dll
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.dll
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.GL.dll
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.World.dll
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\ZedGraph.dll
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.xml
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.GL.xml
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.World.xml
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\ZedGraph.xml
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\zh-CN\ZedGraph.resources.dll
+K:\VS projects\ACMSemProject\ACMSemProject\bin\Debug\ru\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+E:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.exe
+E:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.pdb
+E:\ACMSemProject\ACMSemProject\bin\Debug\ACMSemProject.exe
+E:\ACMSemProject\ACMSemProject\bin\Debug\ACMSemProject.pdb
+E:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.dll
+E:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.GL.dll
+E:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.World.dll
+E:\ACMSemProject\ACMSemProject\bin\Debug\ZedGraph.dll
+E:\ACMSemProject\ACMSemProject\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+E:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.xml
+E:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.GL.xml
+E:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.World.xml
+E:\ACMSemProject\ACMSemProject\bin\Debug\ru\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+E:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.csprojResolveAssemblyReference.cache
+E:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.Form1.resources
+E:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.Properties.Resources.resources
+E:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.csproj.GenerateResource.Cache
+E:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2015.dll
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.exe
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.pdb
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\ACMSemProject.exe
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\ACMSemProject.pdb
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2017.dll
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.dll
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.GL.dll
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.World.dll
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\ZedGraph.dll
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.xml
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.World.xml
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.Form1.resources
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.Properties.Resources.resources
+C:\Users\PackardBell\Documents\university\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.csproj.GenerateResource.Cache
+N:\ACMSemProject\ACMSemProject\bin\Debug\ACMSemProject.exe
+N:\ACMSemProject\ACMSemProject\bin\Debug\ACMSemProject.pdb
+N:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2017.dll
+N:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.dll
+N:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.GL.dll
+N:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.World.dll
+N:\ACMSemProject\ACMSemProject\bin\Debug\ZedGraph.dll
+N:\ACMSemProject\ACMSemProject\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+N:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.xml
+N:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.UI.GL.xml
+N:\ACMSemProject\ACMSemProject\bin\Debug\Emgu.CV.World.xml
+N:\ACMSemProject\ACMSemProject\bin\Debug\ZedGraph.xml
+N:\ACMSemProject\ACMSemProject\bin\Debug\zh-CN\ZedGraph.resources.dll
+N:\ACMSemProject\ACMSemProject\bin\Debug\ru\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+N:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.csprojResolveAssemblyReference.cache
+N:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.Form1.resources
+N:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.Properties.Resources.resources
+N:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.csproj.GenerateResource.Cache
+N:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.exe
+N:\ACMSemProject\ACMSemProject\obj\Debug\ACMSemProject.pdb
