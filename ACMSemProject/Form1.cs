@@ -18,7 +18,7 @@ namespace ACMSemProject
 {
     public partial class Form1 : Form
     {
-
+        private bool _isCameraMatrixCount = false;
         Matrix<float> cameraMatrix1 = new Matrix<float>(3, 3);
         Matrix<float> cameraMatrix2 = new Matrix<float>(3, 3);
         Matrix<float> distCoeff1 = new Matrix<float>(4, 1);
@@ -143,7 +143,7 @@ namespace ACMSemProject
         private void CaptureStereoImages(VideoCapture capture1, VideoCapture capture2, out Mat mat1, out Mat mat2)
         {
             Mat mattmp1 = new Mat();
-            
+
             if (capture1 == null || capture2 == null)
             {
                 throw new NullReferenceException("Input exist capture parameters");
@@ -355,9 +355,6 @@ namespace ACMSemProject
                 Mat output = new Mat();
                 Mat left8bit = ConvertInto8bitMat(left);
                 Mat right8bit = ConvertInto8bitMat(right);
-                Mat map1 = new Mat();
-                Mat map2 = new Mat();
-                //CvInvoke.InitUndistortRectifyMap(cameraMatrix2, distCoeff2, R2, cameraMatrix1, _right.Size, DepthType.Cv32F, map1, map2);
                 stereoSolver.Compute(left8bit, right8bit, output);
                 Mat points = new Mat();
                 float scale = Math.Max(left.Size.Width, left.Size.Height);
@@ -375,7 +372,23 @@ namespace ACMSemProject
                 }
                 //Construct a simple Q matrix, if you have a matrix from cvStereoRectify, you should use that instead
                 //scale the object's coordinate to within a [-0.5, 0.5] cube
+                if (_isCameraMatrixCount) {
+                    Mat map11 = new Mat();
+                    Mat map12 = new Mat();
+                    Mat map21 = new Mat();
+                    Mat map22 = new Mat();
+                    CvInvoke.InitUndistortRectifyMap(cameraMatrix1, distCoeff1, R1, P1, left8bit.Size,
+                        DepthType.Cv16S, map11, map12);
+                    CvInvoke.InitUndistortRectifyMap(cameraMatrix2, distCoeff2, R2, P2, left8bit.Size,
+                        DepthType.Cv16S, map21, map22);
 
+                    Mat img1r = new Mat();
+                    Mat img2r = new Mat();
+                    CvInvoke.Remap(left8bit, img1r, map11, map12, Inter.Linear);
+                    CvInvoke.Remap(right8bit, img2r, map21, map22, Inter.Linear);
+                    left8bit = img1r;
+                    right8bit = img2r;
+                }
                 //stereoSolver.FindStereoCorrespondence(left, right, disparityMap);
                 CvInvoke.ReprojectImageTo3D(output, points, Q, false, DepthType.Cv32F);
                 //points = PointCollection.ReprojectImageTo3D(output, Q);
@@ -554,6 +567,7 @@ namespace ACMSemProject
                 Q[2, 2] + " " + Q[2, 3] + "\n" + Q[3, 0] + " " + Q[3, 1] + " " + Q[3, 2] + " " + Q[3, 3]);
 
             _isCalibrate = true;
+            _isCameraMatrixCount = true;
         }
 
         private static Mat ConvertInto8bitMat(Mat mat)
@@ -662,7 +676,7 @@ namespace ACMSemProject
         {
             lTypeOfFocalLength.Text = "mm";
             StartStereoCapturing(_capture, _cameraIndex[0], _capture2, _cameraIndex[1], out _capture, out _capture2);
-            AddCaptureParams(CountDistanceToChessboardProcess);
+			AddCaptureParams(CountDistanceToChessboardProcess);
         }
 
         private void CountDistanceToChessboardProcess(object sender, EventArgs e)
